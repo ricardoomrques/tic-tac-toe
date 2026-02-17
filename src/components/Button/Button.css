@@ -1,0 +1,24 @@
+:root {
+    --button-color: #733434;
+    --button-text-size: 40px;
+    --padding: 5px;
+    --height-small: 27px;
+    --height-large: 72px;
+}
+
+button {
+    background-color: var(--button-color);
+    border-radius: 10px;
+    padding: var(--padding) var(--padding);
+    color: white;
+    border: none;
+    font-size: var(--button-text-size);
+}
+
+.btn-small {
+    height: var(--height-small);
+}
+
+.btn-large {
+    height: var(--height-large);
+}

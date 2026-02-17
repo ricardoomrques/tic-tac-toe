@@ -1,0 +1,29 @@
+:root {
+    --button-gap: 50px;
+    --title-size: 96px;
+    --gap-title-button: 100px;
+}
+
+.main-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: var(--gap-title-button);
+}
+
+.main-page-container .main-menu-title {
+    color: white;
+    text-align: center;
+    font-size: var(--title-size);
+    font-weight: normal;
+    margin: 0;
+}
+
+.main-page-container .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--button-gap);
+    align-items: center;
+}
